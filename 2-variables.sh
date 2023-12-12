@@ -3,4 +3,4 @@ user1=ramesh
 user2=suresh
 
 echo "$user1: Hi $user2, how are you man ?"
-echi "$user2: Hello $user1, i am fine, how are you doing ?"
+echo "$user2: Hello $user1, i am fine, how are you doing ?"
