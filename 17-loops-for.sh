@@ -1,5 +1,5 @@
 #!/bin/bash
 for i in {1..89}
 do
-    echo $id
+    echo $i
 done
