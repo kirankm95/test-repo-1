@@ -1,5 +1,5 @@
 #!/bin/bash
-a=21
+a=$1
 if [ $a > 20 ]
 then 
 echo "numnber grater than $a"
