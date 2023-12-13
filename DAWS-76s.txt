@@ -1,0 +1,245 @@
+demo:
+Devops : faster releases with less defects
+       : Devops is a process of developing, deploying and testing on same day. For suppose if a developer develops 100 lines of code, we can deploy 
+	   and test on same day. we will get immidiate results, we can fix them. in this process developers, testing and operations teams working together.
+       before 2012 waterfall method : single file or single deploy or full story
+       : Continuos Develop, Compile, Test, Deploy, Monitor
+before 2015 agile method : small iterations or small peices or multiple deployments
+after 2015 devops method : everyday develop, deploy and testings. less defects. automate process.
+Continuos deploy : non prod
+Continuos delivery : prod 
+Certifications : AWS solutions architect associate, CKA, Terraform
+AWS devops : Code commit, Code build, Code deploy
+Azure devops : Azure Repos, Azure Pipelines, Azure Tasks
+
+1:
+AWS account
+Computer : OS, Cpu, Ram, Storage, IP
+online diagram or flow chart - https://app.diagrams.net/ 
+ssh-keygen -t rsa -f key-file
+ssh -i key-file.pem user@IP
+us-east1 is N.Virginia is first region
+region -> couple of avilability zones
+
+2:
+wget : file download
+curl : content download
+curl -o : alternative to wget
+cut : cut -d : f1
+awk : awk -F : '{print $1}'
+
+3:
+sshd -t : checks syntax of sshd file
+usermod -g group user
+usermod -aG group user
+gpasswd -d user group
+amazon-linux-extras install package
+
+4:
+0-65,535 ports
+ssh port no - 22
+http: 80
+https: 443
+mysql: 3306
+SMTP: 25
+FTP: 21
+netstat -lntp
+google sheets, online docs, online ms office
+
+5:
+.pem - general format
+.ppk - putty private key
+
+
+6:
+public IP vs private IP
+public IP : cost, latency, security
+ipv4 vs ipv6
+2^32 IP address in ipv4
+NAT : network address translation
+DNS
+fiber exchange points
+submarine cables
+monolithic vs microservice
+EAR file 
+Servlet - backend
+JSP - front end
+DEV -> QA -> UAT (pre-prod)(only clients) -> PROD
+Frontend : HTML, JavaScript, Angular JS
+Backend : Java, .Net, Python, NodeJS, PHP, go language
+KIOSK applications
+application tier : user, cart, product, payment, order, dispatch
+front end : 80
+backend : 8080
+telnet IP port
+networking by ravula ravindhrababu
+
+
+7:
+mongodb, redis, mysql, rabbit mq
+forward proxy vs reverse proxy
+CRUD : create, read, update, delete
+aws AMI
+yum vs dnf
+VPN
+HTTP codes : 200* success, 300* redirect, 400* client error, 500* server error
+
+8:
+DNS
+after entering facebook.com in web, what will happen ? and background process ?
+root servers
+TLD (.com, .in, .gov, .org, .net, .online, .shop)
+Domain registers : godaddy, hostinger, AWS, etc.
+A record, CNAME record/etc.
+Name servers
+Hosted zones
+mongo DB/redis DB
+browser -> OS -> ISP provider -> root servers -> TLD -> name servers -> A record
+nodejs : npm, python : pip, java : maven, .net : nuget
+mongodb org : server, mongodb shell : client
+redis DB vs cache
+
+
+9:
+apps -> redis -> DB
+redis : 6379
+/etc/systemd/system/application.service
+JAR file 
+java -> compile -> bytecode (.jar file)
+python=nodejs=no need of compile = no bytecode
+
+
+10:
+synchronous vs asynchronous
+kafka vs rabbitmq
+GIT full form : Global Information Tracker
+mongodb : 27017
+catalogue : 8080
+ZIP file
+Mentimeter
+npm install 
+mvn clean package
+rabbitMQ : messaging queue database
+asynchronous : client -> messaging queue -> server
+payment -> rabbitmq -> dispatch
+nodejs : package.json
+java : pam.xml
+python : requirements.txt
+
+11:
+project configuration:
+create a server
+installed programming language
+download code/application
+created directories, users
+installed depedencies
+start application
+
+deployment/release:
+developer will push new application/code
+stop the server
+remove the old code or backup the code
+download new code
+start the server
+
+manual process:
+downtime
+time consuming 
+manual errors/mistakes
+troubleshooting
+who did mistakes
+repeated work
+
+programming : java, .net, python, etc.
+scripting : shell, python, ansible, terraform, docker and kubernetes, etc.
+
+variables
+data types
+conditions
+functions
+loops
+
+GIT : version control, track the changes, review new changes, maintain previous versions, backup and security, branching, collabration, 
+de-centralised or distributed version control system
+
+branching : create a branch from master, do the changes, if all good then proceed
+
+repository : some storage or folder to store data with extra capabilities
+
+git/github/gitlab/bitbucket
+
+IDE - integrated developement environment
+
+git init
+git clone "GIT LOCATION"
+git status
+git add
+git status
+git add .
+git branch -M main
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
+git commit -m "messege"
+git remote add origin "GIT LOCATION"
+git push origin master
+
+Nexus
+
+master -> main
+
+slave -> feature-1, feature-2
+
+12:
+github - folder in internet with some tracking capabilities
+git log
+
+recism
+
+java - file.java
+bash - file.sh
+
+#!/bin/bash - shebang
+
+git remote set-url origin "GIT LOCATION"
+
+DRY - don't repeat yourself
+
+VDE/Intelige
+
+GIT/tortaius
+
+git restore --staged FILE
+
+git log
+
+variables
+arguments
+read
+read -s
+data types : int, float, char, bolean, string, long, array, map, etc.
+sum
+arrays
+
+13:
+condition : if then else elif fi
+grater less : -gt -lt -ge -le
+function
+1, 2, &, >, >>
+$?, $0, $1, $2, $3, $N, $@, $#
+date +%F-%H-%M-%S
+RED: \e[31m
+GREEN: \e[32m
+YELLOW: \e[33m
+NORMAL: \e[0m
+
+echo -e "Hello it is \e[32m aws \e[0m machine"
+
+loops
+
+14:
+
+
+ 
+
+
+
