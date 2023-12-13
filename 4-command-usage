@@ -1,4 +1,4 @@
 #!/bin/bash
-user1=$date
+user1=$(date)
 
 echo "$user1: Hi "
