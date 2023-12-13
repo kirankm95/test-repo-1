@@ -21,8 +21,8 @@ else
     echo "You are root user, YEAH"
 fi
 
-yum install -y mysql &>> LOGFILE
+yum install -y mysql &>> $LOGFILE
 MYFUNCTION $? "mysql"
 
-yum install -y git &>> LOGFILE
+yum install -y git &>> $LOGFILE
 MYFUNCTION $? "GIT"
