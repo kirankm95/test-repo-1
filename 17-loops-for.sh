@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {1..999}
+for i in {kiran kumar nayanshi}
 do
     echo $i
 done
