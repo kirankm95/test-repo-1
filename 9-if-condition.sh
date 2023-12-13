@@ -5,3 +5,4 @@ then
 echo "numnber grater than $a"
 else
 echo "number less than $a"
+fi
