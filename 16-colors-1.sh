@@ -22,7 +22,7 @@ then
     echo "You are not root user, sorry"
     exit 1
 else
-    echo "$Y You are root user, YEAH $N"
+    echo -e "$Y You are root user, YEAH $N"
 fi
 
 yum install -y mysql &>> $LOGFILE
