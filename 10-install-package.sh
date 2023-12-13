@@ -2,4 +2,9 @@
 
 userid=`id -u`
 
-echo "userid is $userid"
+if [ $userid -eq 0 ]
+then 
+    echo "Hey man you are ROOT"
+else
+    echo "Bye bye"
+fi
