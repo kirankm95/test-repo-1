@@ -1,0 +1,6 @@
+#!/bin/bash
+
+username=$1
+password=$2
+
+echo "you username is $username and your password is $password"
