@@ -1,6 +1,6 @@
 #!/bin/bash
 ID=$(id -u)
-DATE=$(date +F%-%H-%M-%S)
+DATE=$(date +%F-%H-%M-%S)
 LOGFILE="/tmp/$0-$DATE"
 
 MYFUNCTION (){
