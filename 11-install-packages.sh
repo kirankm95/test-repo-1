@@ -6,3 +6,4 @@ then
     echo "You are not root user, sorry"
 else
     echo "You are root user, YEAH"
+fi
