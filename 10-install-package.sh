@@ -4,7 +4,7 @@ userid=`id -u`
 
 if [ $userid -eq 0 ]
 then 
-    yum install -y mysql
+    yum install -y mysqll
     yum list installed mysql 
     if [ $? -eq 0 ]
     then 
