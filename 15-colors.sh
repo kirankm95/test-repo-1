@@ -9,7 +9,7 @@ then
     echo -e "Installing $2 package \e[33m failed \e[0m"
     exit 1
 else
-    echo "installing $2 package is \e[32m SUCCESS buddy \e[0m"
+    echo -e "installing $2 package is \e[32m SUCCESS buddy \e[0m"
 fi
 }
 
