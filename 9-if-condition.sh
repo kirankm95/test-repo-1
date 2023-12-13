@@ -2,7 +2,7 @@
 a=$1
 if [ $a > 20 ]
 then 
-echo "numnber grater than $a"
+echo "entered numnber grater than 20"
 else
-echo "number less than $a"
+echo "number less than 20"
 fi
