@@ -5,3 +5,4 @@ second=$2
 sum=$(($first+$second))
 
 echo " the sum is $sum"
+echo $?
