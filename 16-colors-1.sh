@@ -13,7 +13,7 @@ then
     echo -e "Installing $2 package $R failed $N"
     exit 1
 else
-    echo -e "installing $2 package is $Y SUCCESS $G buddy"
+    echo -e "installing $2 package is $G SUCCESS $N buddy"
 fi
 }
 
