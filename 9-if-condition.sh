@@ -1,6 +1,6 @@
 #!/bin/bash
 a=$1
-if [ $a > 20 ]
+if [ $a -gt 20 ]
 then 
 echo "entered numnber grater than 20"
 else
