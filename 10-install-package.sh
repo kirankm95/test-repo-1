@@ -4,7 +4,7 @@ userid=`id -u`
 
 if [ $userid -eq 0 ]
 then 
-    echo "Hey man you are ROOT"
+    echo "orey ROOT ga etlunnav! ra"
 else
-    echo "Bye bye"
+    echo "pora non-root ga"
 fi
