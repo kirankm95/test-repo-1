@@ -9,7 +9,7 @@ else
     echo "You are root user, YEAH"
 fi
 
-yum install -y mysqllawf
+yum install -y mysql
 
 if [ $? -ne 0 ]
 then
@@ -17,4 +17,14 @@ then
     exit 1
 else
     echo "installing mysql SUCCESS"
+fi
+
+yum install -y git
+
+if [ $? -ne 0 ]
+then
+    echo "Installing GIT failed"
+    exit 1
+else
+    echo "installing GIT is SUCCESS buddy"
 fi
