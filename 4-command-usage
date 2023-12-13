@@ -1,4 +1,4 @@
 #!/bin/bash
 user1=$(date)
 
-echo "$user1: Hi "
+echo "today date is ${user1}: Hi "
