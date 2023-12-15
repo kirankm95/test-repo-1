@@ -27,7 +27,7 @@ else
     echo -e "$G Orey root user mama, Congrats ra $N" &>> $LOGFILE
 fi
 
-echo "mama nv e arguments anni pass chesav: $Y $@ $N" &>> $LOGFILE
+echo -e "mama nv e arguments anni pass chesav: $Y $@ $N" &>> $LOGFILE
 
 for i in $@
 do
