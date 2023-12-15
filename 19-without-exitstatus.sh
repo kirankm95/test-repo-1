@@ -11,3 +11,5 @@ lsodfjgg
 cd /tmp 
 
 cd /home/centos
+
+touch filename.1
