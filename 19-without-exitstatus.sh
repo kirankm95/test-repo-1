@@ -8,8 +8,12 @@ touch file.name
 
 lsodfjgg
 
-cd /tmp 
+date
+date
+date
 
-cd /home/centos
+date +%F
 
-touch filename.1
+ls -ld 
+
+df -khTs
