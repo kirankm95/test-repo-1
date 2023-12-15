@@ -6,8 +6,7 @@ touch file.name
 
 lsodfjgg
 
-cd /tmp 
+date
 
-cd /home/centos
+id
 
-touch filename.1
