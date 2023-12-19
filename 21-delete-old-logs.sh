@@ -8,18 +8,18 @@ LOGFILE="/tmp/$0-$DATE.log"
 
 SOURCE="/tmp/logs"
 
-echo "Mama, mana script start ayndhi at $DATE" &>> $LOGFILE
+echo -e "$G Mama, mana script start ayndhi at $DATE $N" &>> $LOGFILE
 
 if [ ! -d $SOURCE ]
 then
-    echo "mentioned source directory $SOURCE does not exist"
+    echo -e "$R mentioned source directory $SOURCE does not exist $N"
 fi
 
 DELETE=$(find $SOURCE -type f -name *.log -mtime +14)
 
 while IFS= read -r line 
 do
-    echo "Deleting $line"
+    echo -e "$Y Deleting $line $N"
     rm -rf $line
 done <<< $DELETE
 
