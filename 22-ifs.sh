@@ -16,7 +16,7 @@ then
     exit 1
 fi
 
-while IFS=":" read -r username passwd UID GID comment homefolder shell
+while IFS=":" read -r username passwd userid groupid comment homefolder shell
 do
     echo "username: $username"
     #echo "password: $passwd"
