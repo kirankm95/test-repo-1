@@ -19,10 +19,10 @@ fi
 while IFS=":" read -r username passwd userid groupid comment homefolder shell
 do
     echo "username: $username"
-    #echo "password: $passwd"
-    #echo "UID: $UID"
-    #echo "GID: $GID"
-    #echo "comment: $comment"
-    #echo "homefolder: $homefolder"
-    #echo "shell: $shell"
+    echo "password: $passwd"
+    echo "UID: $userid"
+    echo "GID: $groupid"
+    echo "comment: $comment"
+    echo "homefolder: $homefolder"
+    echo "shell: $shell"
 done < $SOURCE
