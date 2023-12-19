@@ -8,7 +8,7 @@ LOGFILE="/tmp/$0-$DATE.log"
 
 SOURCE="/etc/passwd"
 
-echo -e "$G Mama, mana script start ayndhi at $DATE $N" &>> $LOGFILE
+#echo -e "$G Mama, mana script start ayndhi at $DATE $N" &>> $LOGFILE
 
 if [ ! -f $SOURCE ]
 then
