@@ -17,7 +17,7 @@ fi
 
 DELETE=$(find $SOURCE -type f -name *.log -mtime +14)
 
-while IFS=read -r line 
+while IFS = read -r line 
 do
 echo "Deleting $line"
 done
