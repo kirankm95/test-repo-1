@@ -13,6 +13,7 @@ echo -e "$G Mama, mana script start ayndhi at $DATE $N" &>> $LOGFILE
 if [ ! -d $SOURCE ]
 then
     echo -e "$R mentioned source directory $SOURCE does not exist $N"
+    exit 1
 fi
 
 DELETE=$(find $SOURCE -type f -name *.log -mtime +14)
