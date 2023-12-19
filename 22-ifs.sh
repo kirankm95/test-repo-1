@@ -21,8 +21,8 @@ do
     echo "username: $username"
     #echo "password: $passwd"
     #echo "UID: $UID"
-    echo "GID: $GID"
-    echo "comment: $comment"
-    echo "homefolder: $homefolder"
-    echo "shell: $shell"
+    #echo "GID: $GID"
+    #echo "comment: $comment"
+    #echo "homefolder: $homefolder"
+    #echo "shell: $shell"
 done < $SOURCE
