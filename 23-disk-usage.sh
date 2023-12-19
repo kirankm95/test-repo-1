@@ -16,4 +16,6 @@ fi
 done <<< $DISK_USAGE
 echo -e "Messege: $messege"
 
-echo "$messege" | mail -s "High disk usage:" kirankm95@gmail.com
+#echo "$messege" | mail -s "High disk usage:" kirankm95@gmail.com
+
+sh mail.sh "DevOps Team" "High disk usage" "$messege" "kirankm95@gmail.com" "ALERT High Disk Usage"
