@@ -24,4 +24,4 @@ then
     HELP
 fi
 
-echo "Hello $NAME, $WISHES I am learning something else"
+#echo "Hello $NAME, $WISHES I am learning something else"
