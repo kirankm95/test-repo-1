@@ -18,7 +18,7 @@ do
     esac
 done
 
-if [ $@ -eq 0 ]
+if [ $# -eq 0 ]
 then 
     echo "orey em options ivvalendhu enti. ivvali ra options. chudu help -h tho"
     HELP
