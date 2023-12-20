@@ -14,14 +14,18 @@ do
     case $opt in
         n) NAME="$OPTARG";;
         w) WISHES="$OPTARG";;
-        h|*) HELP; exit;;
+        \?) echo "invalid options: -"$OPTARG"" >&2; USAGE; exit;;
+        :) USAGE; exit;;
+        h) HELP; exit;;
     esac
 done
 
-if [ $# -eq 0 ]
+#if [ $# -eq 0 ]
+if [ -z "$NAME" ] || [ -z "WISHES" ];
 then 
     echo "orey em options ivvalendhu enti. ivvali ra options. chudu help -h tho"
     HELP
+    exit 1
 fi
 
-#echo "Hello $NAME, $WISHES I am learning something else"
+echo "Hello $NAME, $WISHES I am learning something else"
