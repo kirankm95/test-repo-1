@@ -18,4 +18,10 @@ do
     esac
 done
 
+if [ $@ -eq 0 ]
+then 
+    echo "orey em options ivvalendhu enti. ivvali ra options. chudu help -h tho"
+    HELP
+fi
+
 echo "Hello $NAME, $WISHES I am learning something else"
