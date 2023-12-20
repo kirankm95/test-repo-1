@@ -7,7 +7,7 @@ INSTANCES=("mongodb" "redis" "mysql" "rebbitmq" "catalogue" "cart" "user" "shipp
 for i in "${INSTANCES[$@]}"
 do  
     echo "instance is: $i"
-    if [ $i == "mongodb"] || [$i == "mysql"] || [ if $i == "shipping"]
+    if [ $i == "mongodb" ] || [ $i == "mysql" ] || [ if $i == "shipping" ]
     then
         INSTANCE_TYPE="t3.small"
     else
