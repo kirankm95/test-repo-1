@@ -17,3 +17,5 @@ do
         h|*) HELP; exit;;
     esac
 done
+
+echo "Hello $NAME, $WISHES I am learning something else"
