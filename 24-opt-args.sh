@@ -14,7 +14,7 @@ do
     case $opt in
         n) NAME="$OPTARG";;
         w) WISHES="$OPTARG";;
-        \?) echo "invalid options: -"$OPTARG"" >&2; USAGE; exit;;
+        \?) echo "invalid options: -"$OPTARG"" >&2; HELp; exit;;
         :) USAGE; exit;;
         h) HELP; exit;;
     esac
@@ -23,7 +23,7 @@ done
 #if [ $# -eq 0 ]
 if [ -z "$NAME" ] || [ -z "WISHES" ];
 then 
-    echo "orey em options ivvalendhu enti. ivvali ra options. chudu help -h tho"
+    echo "no options passed to script. please pass the required options. check help using -h option"
     HELP
     exit 1
 fi

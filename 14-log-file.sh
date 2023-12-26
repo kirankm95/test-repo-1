@@ -1,7 +1,7 @@
 #!/bin/bash
 ID=$(id -u)
 DATE=$(date +%F-%H-%M-%S)
-LOGFILE="/tmp/$0-$DATE"
+LOGFILE="/tmp/$0-$DATE.log"
 
 MYFUNCTION (){
 if [ $1 -ne 0 ]

@@ -3,7 +3,7 @@
 #echo "Hello $PERSON, good morning. We are learning shell scripting"
 
 NAME=""
-WISHES="Good Morning ra macha"
+WISHES="Good Morning"
 
 HELP(){
     echo "Usage: $(basename $0) -n <name> -w <wishes>"
@@ -14,8 +14,8 @@ do
     case $opt in
         n) NAME="$OPTARG";;
         w) WISHES="$OPTARG";;
-        \?) echo "invalid options: -"$OPTARG"" >&2; USAGE; exit;;
-        :) USAGE; exit;;
+        \?) echo "invalid options: -"$OPTARG"" >&2; HELP; exit;;
+        :) HELP; exit;;
         h) HELP; exit;;
     esac
 done
@@ -23,7 +23,7 @@ done
 #if [ $# -eq 0 ]
 if [ -z "$NAME" ];
 then 
-    echo "orey em options ivvalendhu enti. ivvali ra options. chudu help -h tho"
+    echo "no option passed to script. -n option have to provide. check with -h"
     HELP
     exit 1
 fi
